@@ -62,7 +62,7 @@ function setup() {
   }
 
   // Noise
-  blendMode(SCREEN);
+  blendMode(OVERLAY);
   let noiseScale = 0.02;
   for (let y = 0; y < height; y++) {
     for (let x = 0; x < width; x++) {
